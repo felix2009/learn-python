@@ -18,10 +18,6 @@ def clock_display(hour, minute, second):
     print(time_output, end='\r')
     return
 
-def clock_comput(old_minute, old_second):
-    new_second = old_second + 1
-    
-    return
 
 def my_clock(start_hour, start_minute, start_second):
     hour = start_hour
