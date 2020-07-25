@@ -8,12 +8,14 @@ def clock_display(hour, minute, second):
     hour_output = str(hour)
     minute_output = str(minute)
     second_output = str(second)
+
     if hour < 10:
         hour_output ='0' + hour_output
     if minute < 10:
         minute_output = '0' + minute_output
     if second < 10:
         second_output = '0' + second_output
+
     time_output = hour_output + ':' + minute_output + ':' + second_output
     print(time_output, end='\r')
     return
