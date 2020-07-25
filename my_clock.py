@@ -26,7 +26,6 @@ def my_clock(start_hour, start_minute, start_second):
 
     while True:
         #计算时，分和秒
-        #print("xxxxx\n")
         second = second + 1
         if second == 60:
             second = 0
